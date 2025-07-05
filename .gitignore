@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore dataset and audio files
+*.wav
+*.mp3
+*.csv
+*.npy
+*.h5
+*.pkl
+*.zip
+
+# Ignore model files
+emotion_model.h5
+label_classes.npy
+temp_audio.wav
+
+# Ignore checkpoints and logs
+checkpoints/
+logs/
+*.log
+
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore folders with large datasets
+Marathi_Emotion_Songs/
+Test-Data/
+
